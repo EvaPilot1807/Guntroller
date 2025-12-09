@@ -80,3 +80,5 @@ The code is written assuming the sensor is mounted **flat** (parallel to the gro
 **If you mount the sensor sideways or vertically:**
 Your controls will be messed up (e.g., tilting up might make the mouse go left). You will either need to remount the sensor or modify lines `63` and `64` in the code to swap `g.gyro.z` and `g.gyro.y` to match your mounting angle.
 
+## For movement keys (w a s d shift etc) a simple esp32 based bluetooth pedalboard is used. 
+
